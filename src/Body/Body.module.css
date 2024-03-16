@@ -1,0 +1,20 @@
+.font {
+	font-family: "Open Sans";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 112px;
+	line-height: 120px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #ffffff;
+}
+
+@media only screen and (max-width: 400px) {
+	.font {
+		font-size: 56px;
+		line-height: 64px;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+}

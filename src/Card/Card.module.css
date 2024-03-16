@@ -1,0 +1,536 @@
+.body {
+	width: 580px;
+	height: 400px;
+	background-color: antiquewhite;
+}
+
+.span {
+	font-family: "Open Sans";
+	font-style: normal;
+	font-weight: 700;
+	color: #ff9c50;
+}
+
+/* first card css starts here */
+
+.firstcard {
+	margin-top: 80px;
+	display: flex;
+	flex-direction: row;
+	gap: 40px;
+}
+
+.description {
+	font-family: "Open Sans";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 32px;
+	color: #ffffff;
+}
+
+.greetings {
+	width: 580px;
+	height: 400px;
+	background-color: #18191d;
+	border-color: #353945;
+	border-style: solid;
+	border-radius: 16px;
+	padding: 148px 40px 40px 40px;
+	border-width: 1px;
+	display: flex;
+	flex-direction: column;
+	gap: 24px;
+}
+
+.hello {
+	font-family: "Open Sans";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 48px;
+	color: #ffffff;
+}
+
+.greytitle {
+	font-family: "Open Sans";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 32px;
+	text-transform: uppercase;
+	color: #777e90;
+}
+
+.city {
+	font-family: "Open Sans";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 80px;
+	line-height: 88px;
+	color: #ffffff;
+}
+
+.location {
+	width: 580px;
+	height: 400px;
+	background-color: #18191d;
+	border-color: #353945;
+	border-style: solid;
+	border-radius: 16px;
+	padding: 144px 40px 40px 40px;
+	border-width: 1px;
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+}
+
+/* first card css ends here */
+
+/* second card css starts here */
+
+.secondcard {
+	margin-top: 40px;
+	display: flex;
+	flex-direction: row;
+	gap: 40px;
+}
+
+.socialInstagram {
+	width: 776px;
+	height: 400px;
+	background-color: #18191d;
+	border-color: #353945;
+	border-style: solid;
+	border-radius: 16px;
+	border-width: 1px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	transition: 500ms;
+}
+
+.socialInstagram:hover {
+	background: rgba(227, 92, 103, 0.05);
+	border: 1px solid #e35c67;
+	transition: 500ms;
+}
+
+.invest {
+	width: 384px;
+	height: 400px;
+	background-color: #18191d;
+	border-color: #353945;
+	border-style: solid;
+	border-radius: 16px;
+	padding: 72px 40px 40px 40px;
+	border-width: 1px;
+	display: flex;
+}
+
+.investtext {
+	font-family: "Open Sans";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 48px;
+	color: #ffffff;
+}
+
+/* second card css ends here */
+
+/* third card css starts here */
+
+.thirdcard {
+	margin-top: 40px;
+	display: flex;
+	flex-direction: row-reverse;
+	gap: 40px;
+}
+
+.socialX {
+	width: 776px;
+	height: 400px;
+	background-color: #18191d;
+	border-color: #353945;
+	border-style: solid;
+	border-radius: 16px;
+	border-width: 1px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	transition: 500ms;
+}
+
+.socialX:hover {
+	background: rgba(92, 162, 227, 0.05);
+	border: 1px solid #5ca2e3;
+	transition: 500ms;
+}
+
+.fellow {
+	width: 384px;
+	height: 400px;
+	background-color: #18191d;
+	border-color: #353945;
+	border-style: solid;
+	border-radius: 16px;
+	border-width: 1px;
+	display: flex;
+	flex-direction: column;
+	padding: 176px 40px 40px 40px;
+	gap: 8px;
+}
+
+/* third card css ends here */
+
+/* project css starts here */
+
+.project {
+	margin-top: 40px;
+	display: flex;
+	flex-direction: row;
+	gap: 40px;
+	width: auto;
+	height: 500px;
+	background-color: #18191d;
+	border-color: #353945;
+	border-style: solid;
+	border-radius: 16px;
+	border-width: 1px;
+	display: flex;
+	justify-content: space-between;
+	padding: 0px 40px;
+	transition: 500ms;
+}
+
+.project:hover {
+	background: rgba(80, 227, 194, 0.05);
+	border: 1px solid #50e3c2;
+	transition: 500ms;
+}
+
+.projectDes {
+	font-family: "Open Sans";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 150%;
+	color: #777e90;
+	width: 343px;
+}
+
+.projectleft {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding: 48px 0px 40px 0px;
+}
+
+.projectText {
+	display: flex;
+	flex-direction: column;
+	gap: 24px;
+}
+
+.learnMore {
+	display: flex;
+	align-content: center;
+	gap: 16px;
+}
+
+.learnMoreLink {
+	font-family: "Ubuntu";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 24px;
+	text-transform: uppercase;
+	text-align: left;
+
+	color: #ffffff;
+}
+
+.screenshot {
+	display: flex;
+	align-content: self-end;
+}
+
+/* project css ends here */
+
+/* mvp starts here */
+
+.mvpSection {
+	margin-top: 40px;
+	display: flex;
+	flex-direction: row;
+	gap: 40px;
+}
+
+.mvpText {
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+}
+
+.mvp {
+	display: flex;
+	flex-direction: row;
+	gap: 40px;
+	width: 776px;
+	height: 400px;
+	background-color: #18191d;
+	border-color: #353945;
+	border-style: solid;
+	border-radius: 16px;
+	border-width: 1px;
+	display: flex;
+	justify-content: space-between;
+	padding: 0px 40px;
+	transition: 500ms;
+}
+
+.mvp:hover {
+	background: rgba(239, 144, 58, 0.05);
+	border: 1px solid #ef903a;
+	transition: 500ms;
+}
+
+.ufo {
+	display: flex;
+	align-self: flex-end;
+}
+
+.bookux {
+	width: 384px;
+	height: 400px;
+	background-color: #18191d;
+	border-color: #353945;
+	border-style: solid;
+	border-radius: 16px;
+	padding: 72px 40px 40px 40px;
+	border-width: 1px;
+	display: flex;
+}
+
+.bookux:hover {
+	background: rgba(239, 144, 58, 0.05);
+	border: 1px solid #ef903a;
+	transition: 500ms;
+}
+
+/* mvp ends here */
+
+/* blog card starts here */
+.blogcard {
+	margin-top: 40px;
+	display: flex;
+	flex-direction: row-reverse;
+	gap: 40px;
+}
+
+.blog {
+	width: 384px;
+	height: 400px;
+	background-color: #18191d;
+	border-color: #353945;
+	border-style: solid;
+	border-radius: 16px;
+	border-width: 1px;
+	display: flex;
+	flex-direction: column;
+	padding: 176px 40px 40px 40px;
+	gap: 8px;
+	transition: 500ms;
+}
+
+.blog:hover {
+	background: rgba(255, 57, 111, 0.05);
+	border: 1px solid #ff396f;
+	transition: 500ms;
+}
+
+.brighttitle {
+	font-family: "Open Sans";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 32px;
+	text-transform: uppercase;
+	color: #ff396f;
+}
+
+.socialBlog {
+	width: 776px;
+	height: 400px;
+	background-color: #18191d;
+	border-color: #353945;
+	border-style: solid;
+	border-radius: 16px;
+	border-width: 1px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	transition: 500ms;
+}
+
+.socialBlog:hover {
+	background: rgba(255, 57, 111, 0.05);
+	border: 1px solid #ff396f;
+	transition: 500ms;
+}
+
+/* blog card ends here */
+
+/* footer css starts here */
+
+.footer {
+	margin-top: 80px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 24px;
+}
+
+.divider {
+	width: 100%;
+	height: 1px;
+	opacity: 0.2;
+	background-color: #777e90;
+}
+
+.footerText {
+	font-family: "Open Sans";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 12px;
+	line-height: 20px;
+	text-align: center;
+	text-transform: uppercase;
+
+	color: #777e90;
+}
+
+/* footer css ends here */
+
+/* responsive css starts here */
+
+@media only screen and (max-width: 400px) {
+	.firstcard {
+		align-items: center;
+		flex-direction: column;
+	}
+
+	.greetings {
+		width: 343px;
+		height: auto;
+		padding: 40px 40px 40px 40px;
+	}
+
+	.location {
+		width: 343px;
+		height: auto;
+		padding: 80px 40px 40px 40px;
+	}
+
+	.city {
+		font-size: 56px;
+		line-height: 64px;
+	}
+
+	.secondcard {
+		align-items: center;
+		flex-direction: column;
+	}
+
+	.socialInstagram {
+		width: 343px;
+		height: auto;
+		padding: 40px 40px 40px 40px;
+	}
+
+	.invest {
+		width: 343px;
+		height: auto;
+		padding: 40px 40px 40px 40px;
+	}
+
+	.thirdcard {
+		align-items: center;
+		flex-direction: column;
+	}
+
+	.socialX {
+		width: 343px;
+		height: auto;
+		padding: 40px 40px 40px 40px;
+	}
+	.fellow {
+		width: 343px;
+		height: auto;
+		padding: 80px 40px 40px 40px;
+	}
+
+	.project {
+		width: 343px;
+		height: auto;
+		margin-left: auto;
+		margin-right: auto;
+		align-items: center;
+		flex-direction: column;
+		overflow: hidden;
+	}
+
+	.projectleft {
+		display: flex;
+		flex-direction: column;
+		gap: 40px;
+	}
+
+	.projectDes {
+		width: auto;
+	}
+
+	.blogcard {
+		align-items: center;
+		flex-direction: column;
+	}
+
+	.socialBlog {
+		width: 343px;
+		height: auto;
+		padding: 40px 40px 40px 40px;
+	}
+
+	.blog {
+		width: 343px;
+		height: auto;
+		padding: 80px 40px 40px 40px;
+	}
+
+	.mvpSection {
+		align-items: center;
+		flex-direction: column;
+	}
+
+	.mvp {
+		width: 343px;
+		height: auto;
+		margin-left: auto;
+		margin-right: auto;
+		align-items: center;
+		flex-direction: column;
+		overflow: hidden;
+	}
+
+	.bookux {
+		width: 343px;
+		height: auto;
+		padding: 40px 40px 40px 40px;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+}
+
+/* responsive css ends here */
