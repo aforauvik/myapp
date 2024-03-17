@@ -14,15 +14,15 @@ const MessageRotator = () => {
 	const [currentMessageIndex, setCurrentMessageIndex] = useState(0);
 
 	useEffect(() => {
-		// Function to change message every 15 seconds
+		// Function to change message every 10 seconds
 		const interval = setInterval(() => {
 			setCurrentMessageIndex((prevIndex) => (prevIndex + 1) % messages.length);
 		}, 10000);
 
-		// Stop changing messages after 30 seconds
+		// Stop changing messages after -- seconds
 		setTimeout(() => {
 			clearInterval(interval);
-		}, 30000);
+		}, 70000);
 
 		// Clean up interval on component unmount
 		return () => clearInterval(interval);
