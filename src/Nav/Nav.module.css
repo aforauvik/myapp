@@ -14,3 +14,12 @@
 	align-items: center;
 	gap: 40px;
 }
+
+a {
+	transition: 500ms;
+}
+
+a:hover {
+	transition: 500ms;
+	color: #ff9c50;
+}
