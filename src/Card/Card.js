@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./Card.module.css";
+import MessageRotator from "./Blog";
 
 function Card() {
 	const currentDate = new Date();
@@ -114,7 +115,9 @@ function Card() {
 				<a target="blank" href="https://auvik.substack.com/">
 					<div className={styles.blog}>
 						<h1 className={styles.brighttitle}>1 Minute Blogs</h1>
-						<p className={styles.investtext}>Three Need Finding Strategies</p>
+						<p className={styles.investtext}>
+							<MessageRotator />
+						</p>
 					</div>
 				</a>
 			</section>

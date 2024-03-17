@@ -338,7 +338,7 @@
 	border-width: 1px;
 	display: flex;
 	flex-direction: column;
-	padding: 176px 40px 40px 40px;
+	padding: 40px 40px 40px 40px;
 	gap: 8px;
 	transition: 500ms;
 }
@@ -504,7 +504,7 @@
 	.blog {
 		width: 343px;
 		height: auto;
-		padding: 80px 40px 40px 40px;
+		padding: 40px 40px 40px 40px;
 	}
 
 	.mvpSection {
