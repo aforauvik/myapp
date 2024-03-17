@@ -141,7 +141,7 @@ function Card() {
 					<div className={styles.bookux}>
 						<p className={styles.investtext}>
 							Book a <span className={styles.span}>free UX workshop</span> to
-							help launch your startup idea. No string attached!
+							help launch your startup idea. No strings attached!
 						</p>
 					</div>
 				</section>
