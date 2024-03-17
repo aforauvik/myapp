@@ -1,10 +1,10 @@
 import styles from "./Nav.module.css";
 
 const navItems = [
-	// {
-	// 	title: "Home",
-	// 	linksTo: "/",
-	// },
+	{
+		title: "My Blog",
+		linksTo: "https://auvik.substack.com/",
+	},
 	{
 		title: "Projects",
 		linksTo: "https://www.mousepotato.co/projects",
