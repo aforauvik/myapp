@@ -19,12 +19,12 @@ const MessageRotator = () => {
 		// Function to change message every 10 seconds
 		const interval = setInterval(() => {
 			setCurrentMessageIndex((prevIndex) => (prevIndex + 1) % messages.length);
-		}, 10000);
+		}, 5000);
 
 		// Stop changing messages after -- seconds
 		setTimeout(() => {
 			clearInterval(interval);
-		}, 80000);
+		}, 100000);
 
 		// Clean up interval on component unmount
 		return () => clearInterval(interval);
