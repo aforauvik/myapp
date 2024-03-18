@@ -1,7 +1,9 @@
 import {useState, useEffect} from "react";
 
 const messages = [
+	"Harnessing Social Norms to Drive User Behavior",
 	"Understanding Cognitive Load in UX Design",
+	"The Hippo Syndrome: When Design Decisions are Driven by the Loudest Voice",
 	"Three Need-finding Strategies",
 	"4 Types Of User Interview Questions To Avoid",
 	"PMI Technique For Ideation",
@@ -22,7 +24,7 @@ const MessageRotator = () => {
 		// Stop changing messages after -- seconds
 		setTimeout(() => {
 			clearInterval(interval);
-		}, 70000);
+		}, 80000);
 
 		// Clean up interval on component unmount
 		return () => clearInterval(interval);
