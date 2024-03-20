@@ -20,8 +20,8 @@ function Card() {
 							</a>
 						</span>
 						. I like to design human-centered, modern, and most importantly
-						functional products. I believe design decisions should be
-						data-driven.
+						functional products. I believe design is an iterative process and
+						design decisions should be data-driven.
 					</p>
 				</div>
 
