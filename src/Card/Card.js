@@ -19,7 +19,7 @@ function Card() {
 								Mouse Potato Lab
 							</a>
 						</span>
-						. I like to design human-centered, modern, and most importantly
+						. I like to design human-centered, minimalist, and most importantly
 						functional products. I believe design is an iterative process and
 						design decisions should be data-driven.
 					</p>
