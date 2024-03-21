@@ -25,3 +25,11 @@ ul {
 		color-scheme: dark;
 	}
 }
+
+@media only screen and (min-width: 412px) and (max-width: 768px) {
+	html,
+	body {
+		padding-left: 16px;
+		padding-right: 16px;
+	}
+}
