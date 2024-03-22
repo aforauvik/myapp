@@ -13,6 +13,14 @@
 	flex-direction: row;
 	align-items: center;
 	gap: 40px;
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	padding: 16px 40px;
+	background: #18191d;
+	border: 1px solid #353945;
+	border-radius: 8px;
 }
 
 a {
@@ -22,4 +30,28 @@ a {
 a:hover {
 	transition: 500ms;
 	color: #ff9c50;
+}
+
+@media only screen and (max-width: 400px) {
+	.font {
+		font-size: 14px;
+		line-height: 22px;
+	}
+
+	.navigation {
+		padding: 16px 40px;
+		gap: 24px;
+	}
+}
+
+@media only screen and (min-width: 412px) and (max-width: 440px) {
+	.font {
+		font-size: 14px;
+		line-height: 22px;
+	}
+
+	.navigation {
+		padding: 16px 40px;
+		gap: 24pxx;
+	}
 }
