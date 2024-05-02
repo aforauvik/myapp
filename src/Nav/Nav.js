@@ -13,7 +13,7 @@ const navItems = [
 		target: "",
 	},
 	{
-		title: "Blog",
+		title: "My Blog",
 		linksTo: "https://auvik.substack.com/",
 		target: "blank",
 	},
