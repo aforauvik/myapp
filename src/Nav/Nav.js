@@ -12,16 +12,16 @@ const navItems = [
 		linksTo: "/Projects",
 		target: "",
 	},
+	{
+		title: "Blog",
+		linksTo: "https://auvik.substack.com/",
+		target: "blank",
+	},
 
 	{
 		title: "Contact",
 		linksTo: "mailto:email@auvik.me",
 		target: "",
-	},
-	{
-		title: "Blog",
-		linksTo: "https://auvik.substack.com/",
-		target: "blank",
 	},
 ];
 
