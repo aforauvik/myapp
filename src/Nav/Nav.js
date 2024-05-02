@@ -17,12 +17,6 @@ const navItems = [
 		linksTo: "https://auvik.substack.com/",
 		target: "blank",
 	},
-
-	{
-		title: "Contact",
-		linksTo: "mailto:email@auvik.me",
-		target: "",
-	},
 ];
 
 function NavBody(props) {

@@ -108,7 +108,7 @@ function Card() {
 
 			{/* blog card starts here */}
 			<section className={styles.blogcard}>
-				<a target="blank" href="https://auvik.substack.com/">
+				<a target="blank" href="mailto:email@auvik.me">
 					<div className={styles.socialBlog}>
 						<img height={250} src="/blog.png" alt="" srcset="" />
 					</div>

@@ -6,6 +6,7 @@ import reportWebVitals from "./reportWebVitals";
 
 import {createBrowserRouter, RouterProvider} from "react-router-dom";
 import Project from "./pages/Project";
+import Resume from "./pages/Resume";
 
 const router = createBrowserRouter([
 	{
@@ -15,6 +16,11 @@ const router = createBrowserRouter([
 	{
 		path: "projects",
 		element: <Project />,
+	},
+
+	{
+		path: "resume",
+		element: <Resume />,
 	},
 ]);
 
