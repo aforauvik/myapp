@@ -2,6 +2,7 @@ import React from "react";
 import styles from "./Card.module.css";
 import MessageRotator from "./Blog";
 import Footer from "./Footer";
+import {Link} from "react-router-dom";
 
 function Card() {
 	const currentDate = new Date();
@@ -69,7 +70,7 @@ function Card() {
 			{/* third card ends here */}
 
 			{/* project card starts here */}
-			<a target="blank" href="https://www.mousepotato.co/projects">
+			<a target="blank" href="https://www.auvik.me/Projects">
 				<section className={styles.project}>
 					<div className={styles.projectleft}>
 						<div className={styles.projectText}>
