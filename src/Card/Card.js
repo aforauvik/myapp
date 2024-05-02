@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./Card.module.css";
 import MessageRotator from "./Blog";
+import Footer from "./Footer";
 
 function Card() {
 	const currentDate = new Date();
@@ -151,17 +152,7 @@ function Card() {
 			</a>
 			{/* mvp card ends here */}
 
-			{/* footer starts here */}
-
-			<div className={styles.footer}>
-				<div className={styles.divider}></div>
-				<p className={styles.footerText}>
-					CopyRight © {currentYear} | Designed and Developed By Auvik Mir, North
-					Carolina
-				</p>
-			</div>
-
-			{/* footer ends here */}
+			<Footer />
 		</div>
 	);
 }

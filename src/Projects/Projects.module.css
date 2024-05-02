@@ -1,0 +1,143 @@
+/* project css starts here */
+
+.city {
+	font-family: "Open Sans";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 80px;
+	line-height: 88px;
+	color: #ffffff;
+}
+
+.project {
+	margin-top: 40px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	gap: 40px;
+	width: auto;
+	height: 500px;
+	background-color: #18191d;
+	border-color: #353945;
+	border-style: solid;
+	border-radius: 16px;
+	border-width: 1px;
+	transition: 500ms;
+	overflow: hidden;
+}
+
+.project:hover {
+	background: rgba(80, 227, 194, 0.05);
+	border: 1px solid #50e3c2;
+	transition: 500ms;
+}
+
+.projectDes {
+	font-family: "Open Sans";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 150%;
+	color: #777e90;
+	width: 343px;
+}
+
+.projectleft {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding: 48px 0px 40px 40px;
+}
+
+.projectText {
+	display: flex;
+	flex-direction: column;
+	gap: 24px;
+}
+
+.learnMore {
+	display: flex;
+	align-content: center;
+	gap: 16px;
+}
+
+.learnMoreLink {
+	font-family: "Open Sans";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 24px;
+	text-transform: uppercase;
+	text-align: left;
+	color: #ffffff;
+}
+
+.learnMoreLink:hover {
+	color: #50e3c2;
+}
+
+.screenshot {
+	align-content: flex-end;
+}
+
+/* responsive css starts here */
+
+@media only screen and (max-width: 400px) {
+	.city {
+		font-size: 56px;
+		line-height: 64px;
+	}
+
+	.project {
+		width: 343px;
+		height: auto;
+		margin-left: auto;
+		margin-right: auto;
+		align-items: center;
+		flex-direction: column;
+		overflow: hidden;
+	}
+
+	.projectleft {
+		display: flex;
+		flex-direction: column;
+		gap: 40px;
+	}
+
+	.projectDes {
+		width: auto;
+		padding-right: 40px;
+	}
+}
+
+@media only screen and (min-width: 412px) and (max-width: 440px) {
+	.city {
+		font-size: 56px;
+		line-height: 64px;
+	}
+
+	.project {
+		width: 382px;
+		height: auto;
+		margin-left: auto;
+		margin-right: auto;
+		align-items: center;
+		flex-direction: column;
+		overflow: hidden;
+	}
+
+	.projectleft {
+		display: flex;
+		flex-direction: column;
+		gap: 40px;
+	}
+
+	.projectDes {
+		width: auto;
+		padding-right: 40px;
+	}
+}
+
+/* responsive css ends here */
+
+/* project css ends here */

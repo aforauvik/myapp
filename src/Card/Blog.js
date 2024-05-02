@@ -10,6 +10,7 @@ const messages = [
 	"5 Techniques To Generate Great Ideas",
 	"How To Tell If You Are Building A Feature Factory",
 	"Minimum Viable Product",
+	"Mistakes Often Made by First-Time Founders",
 ];
 
 const MessageRotator = () => {

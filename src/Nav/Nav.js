@@ -1,21 +1,27 @@
+import {Link} from "react-router-dom";
 import styles from "./Nav.module.css";
 
 const navItems = [
 	{
-		title: "My Blog",
-		linksTo: "https://auvik.substack.com/",
+		title: "Home",
+		linksTo: "/",
+		target: "",
 	},
 	{
 		title: "Projects",
-		linksTo: "https://www.mousepotato.co/projects",
+		linksTo: "/Projects",
+		target: "",
 	},
-	// {
-	// 	title: "Good Reads",
-	// 	linksTo: "/",
-	// },
+
 	{
 		title: "Contact",
 		linksTo: "mailto:email@auvik.me",
+		target: "",
+	},
+	{
+		title: "Blog",
+		linksTo: "https://auvik.substack.com/",
+		target: "blank",
 	},
 ];
 
@@ -24,9 +30,13 @@ function NavBody(props) {
 		<div>
 			<ul>
 				<li>
-					<a target="blank" className={styles.font} href={`${props.linksTo}`}>
+					<Link
+						target={`${props.target}`}
+						to={`${props.linksTo}`}
+						className={styles.font}
+					>
 						{props.title}
-					</a>
+					</Link>
 				</li>
 			</ul>
 		</div>

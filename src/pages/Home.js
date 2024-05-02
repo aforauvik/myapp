@@ -8,6 +8,7 @@ function Home() {
 			<div className={styles.body}>
 				<Navigation />
 				<Body />
+				<Footer />
 			</div>
 		</div>
 	);
