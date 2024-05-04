@@ -138,6 +138,38 @@
 	}
 }
 
+@media only screen and (min-width: 500px) and (max-width: 800px) {
+	.city {
+		font-size: 56px;
+		line-height: 64px;
+	}
+
+	.screenshot {
+		width: 200px;
+		height: auto;
+	}
+
+	.project {
+		width: 720px;
+		padding: 0px 16px;
+		height: auto;
+		margin-left: auto;
+		margin-right: auto;
+		overflow: hidden;
+	}
+
+	.projectleft {
+		display: flex;
+		flex-direction: column;
+		gap: 40px;
+	}
+
+	.projectDes {
+		width: auto;
+		padding-right: 40px;
+	}
+}
+
 /* responsive css ends here */
 
 /* project css ends here */

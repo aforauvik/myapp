@@ -67,7 +67,7 @@ function Projects(props) {
 								href={`${props.linksTo}`}
 							>
 								{" "}
-								Detail Case Study
+								View Case Study
 							</a>
 
 							<a target="blank" href={`${props.linksTo}`}>
