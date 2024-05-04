@@ -70,7 +70,7 @@ function Card() {
 			{/* third card ends here */}
 
 			{/* project card starts here */}
-			<a target="blank" href="https://www.auvik.me/Projects">
+			<a target="blank" href="https://www.auvik.me/projects">
 				<section className={styles.project}>
 					<div className={styles.projectleft}>
 						<div className={styles.projectText}>
