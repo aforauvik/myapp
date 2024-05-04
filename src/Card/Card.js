@@ -87,13 +87,13 @@ function Card() {
 							<a
 								className={styles.learnMoreLink}
 								target="blank"
-								href="https://www.mousepotato.co/projects"
+								href="https://www.auvik.me/projects"
 							>
 								{" "}
 								Learn More
 							</a>
 
-							<a target="blank" href="https://www.mousepotato.co/projects">
+							<a target="blank" href="https://www.auvik.me/projects">
 								<img width={24} src="/arrow.svg" alt="" srcset="" />
 							</a>
 						</div>
