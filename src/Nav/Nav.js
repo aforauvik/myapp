@@ -9,7 +9,7 @@ const navItems = [
 	},
 	{
 		title: "Projects",
-		linksTo: "/Projects",
+		linksTo: "/projects",
 		target: "",
 	},
 	{
