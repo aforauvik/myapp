@@ -644,4 +644,120 @@
 	}
 }
 
+@media only screen and (min-width: 500px) and (max-width: 800px) {
+	.firstcard {
+		align-items: center;
+		flex-direction: column;
+	}
+
+	.greetings {
+		width: 720px;
+		height: auto;
+		padding: 40px 40px 40px 40px;
+	}
+
+	.location {
+		width: 720px;
+		height: auto;
+		padding: 80px 40px 40px 40px;
+	}
+
+	.city {
+		font-size: 56px;
+		line-height: 64px;
+	}
+
+	.secondcard {
+		align-items: center;
+		flex-direction: column;
+	}
+
+	.socialInstagram {
+		width: 720px;
+		height: auto;
+		padding: 80px 40px 80px 40px;
+	}
+
+	.invest {
+		width: 720px;
+		height: auto;
+		padding: 40px 40px 40px 40px;
+	}
+
+	.thirdcard {
+		align-items: center;
+		flex-direction: column;
+	}
+
+	.socialX {
+		width: 720px;
+		height: auto;
+		padding: 80px 40px 80px 40px;
+	}
+	.fellow {
+		width: 720px;
+		height: auto;
+		padding: 80px 40px 40px 40px;
+	}
+
+	.project {
+		width: 720px;
+		padding: 0px 40px;
+		height: auto;
+		margin-left: auto;
+		margin-right: auto;
+
+		flex-direction: column;
+		overflow: hidden;
+	}
+
+	.projectleft {
+		display: flex;
+		flex-direction: column;
+		gap: 40px;
+	}
+
+	.projectDes {
+		width: auto;
+	}
+
+	.blogcard {
+		align-items: center;
+		flex-direction: column;
+	}
+
+	.socialBlog {
+		width: 720px;
+		height: auto;
+		padding: 80px 40px 80px 40px;
+	}
+
+	.blog {
+		width: 720px;
+		height: 400px;
+		padding: 40px 40px 40px 40px;
+	}
+
+	.mvpSection {
+		align-items: center;
+		flex-direction: column;
+	}
+
+	.mvp {
+		width: 720px;
+		height: auto;
+		margin-left: auto;
+		margin-right: auto;
+		align-items: center;
+		flex-direction: column;
+		overflow: hidden;
+	}
+
+	.bookux {
+		width: 720px;
+		height: auto;
+		padding: 40px 40px 40px 40px;
+	}
+}
+
 /* responsive css ends here */
