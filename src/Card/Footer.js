@@ -17,7 +17,7 @@ function Footer() {
 			<div className={styles.footer}>
 				<div className={styles.divider}></div>
 				<div style={iconStyle}>
-					<a target="blank" href="https://www.instagram.com/auvik">
+					<a target="blank" href="https://dribbble.com/auvik">
 						<img height={24} src="/dribbble-icon.svg" alt="" srcset="" />
 					</a>
 					<a target="blank" href="https://www.instagram.com/auvik">
