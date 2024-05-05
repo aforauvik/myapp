@@ -108,9 +108,9 @@ function Card() {
 
 			{/* blog card starts here */}
 			<section className={styles.blogcard}>
-				<a target="blank" href="mailto:email@auvik.me">
+				<a target="blank" href="https://dribbble.com/auvik">
 					<div className={styles.socialBlog}>
-						<img height={250} src="/blog.png" alt="" srcset="" />
+						<img height={220} src="/dribbble.png" alt="" srcset="" />
 					</div>
 				</a>
 
