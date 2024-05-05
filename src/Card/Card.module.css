@@ -410,6 +410,15 @@
 	color: #777e90;
 }
 
+.footerIcons {
+	transition: 500ms;
+}
+
+.footerIcons:hover {
+	transition: 500ms;
+	opacity: 0.5;
+}
+
 /* footer css ends here */
 
 /* responsive css starts here */
