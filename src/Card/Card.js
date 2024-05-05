@@ -70,7 +70,7 @@ function Card() {
 			{/* third card ends here */}
 
 			{/* project card starts here */}
-			<a target="blank" href="https://www.auvik.me/projects">
+			<a target="blank" href="/projects">
 				<section className={styles.project}>
 					<div className={styles.projectleft}>
 						<div className={styles.projectText}>
@@ -87,13 +87,13 @@ function Card() {
 							<a
 								className={styles.learnMoreLink}
 								target="blank"
-								href="https://www.auvik.me/projects"
+								href="/projects"
 							>
 								{" "}
 								Learn More
 							</a>
 
-							<a target="blank" href="https://www.auvik.me/projects">
+							<a target="blank" href="/projects">
 								<img width={24} src="/arrow.svg" alt="" srcset="" />
 							</a>
 						</div>
