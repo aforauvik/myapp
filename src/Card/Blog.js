@@ -7,10 +7,10 @@ const messages = [
 	"Three Need-finding Strategies",
 	"4 Types Of User Interview Questions To Avoid",
 	"PMI Technique For Ideation",
-	"5 Techniques To Generate Great Ideas",
 	"How To Tell If You Are Building A Feature Factory",
 	"Minimum Viable Product",
-	"Mistakes Often Made by First-Time Founders",
+	"How God Complex Leads To Feature Bloat",
+	"Dark Patterns in UX Design",
 ];
 
 const MessageRotator = () => {
