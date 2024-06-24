@@ -15,7 +15,7 @@ function Card() {
 				<div className={styles.greetings}>
 					<h1 className={styles.hello}>Hi, I am Auvik Mir</h1>
 					<p className={styles.description}>
-						I am a UX, IxD, UI designer, and front-end developer. Founder of{" "}
+						A UX, IxD, UI designer, and front-end developer. Founder of{" "}
 						<span className={styles.span}>
 							<a target="blank" href="https://www.mousepotato.co/">
 								Mouse Potato Lab
