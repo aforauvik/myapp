@@ -10,7 +10,16 @@ function Project() {
 		<div className={styles.main}>
 			<div className={styles.body}>
 				<Navigation />
-				<h1 className={fontstyle.font}>Recent Projects</h1>
+				<h1 className={fontstyle.font}>
+					Recent <br />
+					Projects
+				</h1>
+				<a href="https://5dtjl51z5vl.typeform.com/to/LlPhdYhj" target="blank">
+					<button className={styles.casepassword}>
+						Request Case Study Password
+					</button>
+				</a>
+
 				<AllProjects />
 			</div>
 		</div>

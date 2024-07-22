@@ -36,9 +36,9 @@ function Card() {
 
 			{/* secons card starts here */}
 			<section className={styles.secondcard}>
-				<a target="blank" href="https://www.mousepotato.co">
+				<a target="blank" href="https://dribbble.com/auvik">
 					<div className={styles.socialInstagram}>
-						<img height={250} src="/logo.svg" alt="" srcset="" />
+						<img height={220} src="/dribbble.png" alt="" srcset="" />
 					</div>
 				</a>
 
@@ -108,9 +108,9 @@ function Card() {
 
 			{/* blog card starts here */}
 			<section className={styles.blogcard}>
-				<a target="blank" href="https://dribbble.com/auvik">
+				<a target="blank" href="https://github.com/aforauvik">
 					<div className={styles.socialBlog}>
-						<img height={220} src="/dribbble.png" alt="" srcset="" />
+						<img height={280} src="/github.svg" alt="" srcset="" />
 					</div>
 				</a>
 

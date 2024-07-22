@@ -27,6 +27,13 @@ function Footer() {
 					<a
 						className={styles.footerIcons}
 						target="blank"
+						href="https://github.com/aforauvik"
+					>
+						<img height={24} src="/github.svg" alt="" srcset="" />
+					</a>
+					<a
+						className={styles.footerIcons}
+						target="blank"
 						href="https://www.instagram.com/auvik"
 					>
 						<img height={24} src="/Instagram-icon.svg" alt="" srcset="" />
