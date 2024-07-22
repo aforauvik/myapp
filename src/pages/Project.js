@@ -14,11 +14,11 @@ function Project() {
 					Recent <br />
 					Projects
 				</h1>
-				<a href="https://5dtjl51z5vl.typeform.com/to/LlPhdYhj" target="blank">
+				{/* <a href="https://5dtjl51z5vl.typeform.com/to/LlPhdYhj" target="blank">
 					<button className={styles.casepassword}>
 						Request Case Study Password
 					</button>
-				</a>
+				</a> */}
 
 				<AllProjects />
 			</div>
