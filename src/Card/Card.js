@@ -15,15 +15,10 @@ function Card() {
 				<div className={styles.greetings}>
 					<h1 className={styles.hello}>Hi, I am Auvik Mir</h1>
 					<p className={styles.description}>
-						A UX, IxD, UI designer, and front-end developer. Founder of{" "}
-						<span className={styles.span}>
-							<a target="blank" href="https://www.mousepotato.co/">
-								Mouse Potato Lab
-							</a>
-						</span>
-						. I like to design human-centered, minimalist, and most importantly
-						functional products. I believe design is an iterative process and
-						design decisions should be data-driven.
+						A UX, IxD, UI designer, and front-end developer. I like to design
+						human-centered, minimalist, and most importantly functional
+						products. I believe design is an iterative process and design
+						decisions should be data-driven.
 					</p>
 				</div>
 
