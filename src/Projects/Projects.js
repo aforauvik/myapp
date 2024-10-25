@@ -4,19 +4,19 @@ import Footer from "../Card/Footer";
 
 const projectList = [
 	{
+		title: "AIXR",
+		description: "Augmented and virtual reality education for corporations",
+		linksTo: "./AIXR.pdf",
+		screenshot: "./screens.png",
+		height: "500",
+	},
+	{
 		title: "Topio",
 		description:
 			"An AI powered travel planning app that turns your wanderlust into wealth",
 		linksTo: "./Topio.pdf",
 		screenshot: "./topio.png",
 		height: "450",
-	},
-	{
-		title: "AIXR",
-		description: "Augmented and virtual reality education for corporations",
-		linksTo: "./AIXR.pdf",
-		screenshot: "./screens.png",
-		height: "500",
 	},
 
 	{

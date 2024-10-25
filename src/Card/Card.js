@@ -127,7 +127,7 @@ function Card() {
 
 			{/* mvp card starts here */}
 
-			<a target="blank" href="https://calendly.com/mousepotato">
+			<a target="blank" href="https://cal.com/auvik">
 				<section className={styles.mvpSection}>
 					<div className={styles.mvp}>
 						<div className={styles.projectleft}>
