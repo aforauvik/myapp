@@ -3,6 +3,7 @@ import styles from "./Card.module.css";
 import MessageRotator from "./Blog";
 import Footer from "./Footer";
 import {Link} from "react-router-dom";
+import Testimonials from "./Testimonials";
 
 function Card() {
 	const currentDate = new Date();
@@ -15,10 +16,10 @@ function Card() {
 				<div className={styles.greetings}>
 					<h1 className={styles.hello}>Hi, I am Auvik Mir</h1>
 					<p className={styles.description}>
-						A UX, IxD, UI designer, and front-end developer. I like to design
-						human-centered, minimalist, and most importantly functional
-						products. I believe design is an iterative process and design
-						decisions should be data-driven.
+						A UX, IxD, UI designer, and front-end developer with 12 years of
+						experience. I like to design human-centered, minimalist, and most
+						importantly functional products. I believe design is an iterative
+						process and design decisions should be data-driven.
 					</p>
 				</div>
 
@@ -63,6 +64,8 @@ function Card() {
 				</div>
 			</section>
 			{/* third card ends here */}
+
+			<Testimonials />
 
 			{/* project card starts here */}
 			<a target="blank" href="/projects">
