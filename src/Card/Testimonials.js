@@ -7,7 +7,7 @@ const testimonialsData = [
 		name: "Dr. Steven A.",
 		title: "Staff Software Engineer, Netflix",
 		shortDescription:
-			"I worked with Auvik in the infancy of a startup. He ran the UX side of things, and his miro board was one of the main reasons I joined the startup! It was ambitious. detailed and belived a real intellectual investment on Auvik's part into the domain of the startup.",
+			"I worked with Auvik in the infancy of a startup. He ran the UX side of things, and his miro board was one of the main reasons I joined the startup! It was ambitious. detailed and revealed a real intellectual investment on Auvik's part into the domain of the startup.",
 		fullTestimonial:
 			"I worked with Auvik in the infancy of a startup. He ran the UX side of things, and his miro board was one of the main reasons I joined the startup! It was ambitious. detailed and revealed a real intellectual investment on Auvik's part into the domain of the startup.",
 	},
