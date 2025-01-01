@@ -11,6 +11,7 @@ const messages = [
 	"Minimum Viable Product",
 	"How God Complex Leads To Feature Bloat",
 	"Dark Patterns in UX Design",
+	"Embracing Accessibility: WCAG for Designers and Developers",
 ];
 
 const MessageRotator = () => {
