@@ -112,14 +112,12 @@ function Card() {
 					</div>
 				</a>
 
-				<a target="blank" href="https://auvik.substack.com/">
-					<div className={styles.blog}>
-						<h1 className={styles.brighttitle}>1 Minute Blogs</h1>
-						<p className={styles.investtext}>
-							<MessageRotator />
-						</p>
-					</div>
-				</a>
+				<div className={styles.blog}>
+					<h1 className={styles.brighttitle}>1 Minute Blogs</h1>
+					<p className={styles.investtext}>
+						<MessageRotator />
+					</p>
+				</div>
 			</section>
 			{/* blog card ends here */}
 
