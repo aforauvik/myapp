@@ -18,6 +18,13 @@ const projectList = [
 		screenshot: "./topio.png",
 		height: "450",
 	},
+	{
+		title: "Risen Devices - Care Home",
+		description: "Proper help in an emergency medical situation for care homes",
+		linksTo: "./Risen Devices - B2B.pdf",
+		screenshot: "./risen-b2b.png",
+		height: "450",
+	},
 
 	{
 		title: "Club Funders",
