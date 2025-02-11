@@ -17,9 +17,10 @@ function Card() {
 					<h1 className={styles.hello}>Hi, I am Auvik Mir</h1>
 					<p className={styles.description}>
 						A UX, IxD, UI designer, and front-end developer with 12 years of
-						experience. I like to design human-centered, minimalist, and most
-						importantly functional products. I believe design is an iterative
-						process and design decisions should be data-driven.
+						design experience guiding products through every stage—from
+						discovery to launch. I like to design human-centered, minimalist,
+						and most importantly functional products. I believe design is an
+						iterative process and design decisions should be data-driven.
 					</p>
 				</div>
 
